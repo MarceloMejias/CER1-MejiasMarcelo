@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="es">
+  <!-- Head -->
+  <head>
+    <!-- Metadatos Base -->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Certamen 1</title>
+
+    <!-- Bootstrap 5.3.3 -->
+    <link
+      href="/node_modules/bootstrap/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <script src="/node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+
+    <!-- Favicons -->
+    <link
+      rel="icon"
+      sizes="any"
+      type="image/svg+xml"
+      href="media/favicon/favicon.svg"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="192x192"
+      type="image/png"
+      href="media/favicon/apple-touch-icon-192x192.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      type="image/png"
+      href="media/favicon/apple-touch-icon-180x180.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="128x128"
+      type="image/png"
+      href="media/favicon/apple-touch-icon-128x128.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="96x96"
+      type="image/png"
+      href="media/favicon/apple-touch-icon-96x96.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="64x64"
+      type="image/png"
+      href="media/favicon/apple-touch-icon-64x64.png"
+    />
+    <link
+      rel="icon"
+      sizes="32x32"
+      type="image/png"
+      href="media/favicon/apple-touch-icon-32x32.png"
+    />
+    <link
+      rel="icon"
+      sizes="16x16"
+      type="image/png"
+      href="media/favicon/apple-touch-icon-16x16.png"
+    />
+
+    <!-- Display -->
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta
+      name="apple-mobile-web-app-status-bar-style"
+      content="black-translucent"
+    />
+    <!-- Fuentes -->
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap");
+    </style>
+
+    <!-- Tinting de Pestaña de Safari -->
+    <meta name="theme-color" content="#f8f9fa" />
+  </head>
+
+  <!-- Body -->
+  <body>
+    <!-- Navbar -->
+    <nav
+      class="navbar navbar-expand-lg navbar-light bg-light"
+      style="font-family: Nunito"
+    >
+      <div class="container">
+        <a class="navbar-brand" href="#"></a>
+        <!-- Logotipo -->
+        <img
+          src="/media/logo.svg"
+          alt="Tienda Verde"
+          class="navbar-brand"
+          style="max-width: 150px; max-height: 150px"
+        />
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="/index.html"
+                >Inicio</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/catalog.html">Catálogo</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/contact.html">Contacto</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Hero -->
+    <a id="inicio"></a>
+    <section class="container">
+      <div class="container col-xxl-8 px-4 py-5">
+        <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+          <div class="col-10 col-sm-8 col-lg-6">
+            <img
+              src="/media/plant.png"
+              class="d-block mx-lg-auto img-fluid"
+              alt="Planta"
+              width="700"
+              height="500"
+              loading="lazy"
+            />
+          </div>
+          <div class="col-lg-6">
+            <h1 class="display-5 fw-bold lh-1 mb-3" style="font-family: Nunito">
+              Tienda Verde
+            </h1>
+            <p class="lead">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum et
+              libero suscipit reprehenderit consectetur rerum dolor adipisci
+              soluta sequi consequuntur ipsam odio, officiis aliquam tempore
+              quisquam explicabo reiciendis, id maiores.
+            </p>
+            <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+              <a
+                type="button"
+                class="btn btn-primary btn-lg px-4 me-md-2"
+                href="/catalog.html"
+              >
+                Ver Productos
+              </a>
+              <a
+                type="button"
+                class="btn btn-outline-secondary btn-lg px-4"
+                href="/contact.html"
+              >
+                Contactar
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Galería de Productos Destacados -->
+    <a id="productos-destacados"></a>
+    <section class="container my-5">
+      <h2 class="text-center mb-4" style="font-family: Nunito">
+        Productos Destacados
+      </h2>
+      <div class="row">
+        <div class="col-md-4">
+          <div class="card h-100">
+            <img
+              src="/media/eggs.jpg"
+              class="card-img-top"
+              alt="Estuche con huevos"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Eco Bags</h5>
+              <p class="card-text">Lorem ipsum dolor sit amet consectetur.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card h-100">
+            <img src="/media/soap.webp" class="card-img-top" alt="Producto 2" />
+            <div class="card-body">
+              <h5 class="card-title">Jabones</h5>
+              <p class="card-text">Lorem ipsum dolor sit amet.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card h-100">
+            <img src="/media/oil.webp" class="card-img-top" alt="Producto 3" />
+            <div class="card-body">
+              <h5 class="card-title">Aceites</h5>
+              <p class="card-text">
+                Lorem, ipsum dolor sit amet consectetur adipisicing.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
